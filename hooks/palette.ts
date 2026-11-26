@@ -1,6 +1,5 @@
-// dusk-glass v0.3.0 - the colours. Lavender dusk by day, aurora night by dark.
-// v0.3.0: surface-1 (the side panels' colour) one step richer, so the solid
-// panels carry their own tint now that they are no longer glass.
+// dusk-glass 1.0.0 - the colours: lavender dusk in light mode, an aurora night in dark mode.
+// makeColors builds the whole theme from these anchors and reports any surface the app would not paint.
 import { makeColors } from './make-colors.js'
 
 export const DUSK = makeColors({

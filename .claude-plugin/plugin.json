@@ -2,8 +2,12 @@
   "name": "dusk-glass",
   "version": "1.0.0",
   "description": "Lavender-dusk colours and a living dusk sky behind the Claude desktop app's conversation: fireflies that glow up one or two at a time, a little pen-drawn bee, and three flowers growing out of the corner. Optional Comic Sans for the chat.",
-  "author": { "name": "bmconsult" },
+  "author": { "name": "bmconsult", "url": "https://github.com/bmconsult" },
+  "homepage": "https://github.com/bmconsult/dusk-glass",
+  "repository": "https://github.com/bmconsult/dusk-glass",
   "license": "MIT",
+  "keywords": ["theme", "desktop", "backdrop", "fireflies", "dusk", "comic-sans"],
+  "icon": "./.claude-plugin/icon.png",
   "userConfig": {
     "font": {
       "type": "string",

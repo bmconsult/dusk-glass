@@ -1,5 +1,6 @@
 {
   "name": "dusk-glass",
+  "description": "Dusk Glass: a living dusk-sky theme for the Claude desktop app.",
   "owner": { "name": "bmconsult" },
   "plugins": [{ "name": "dusk-glass", "source": "./" }]
 }

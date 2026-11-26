@@ -1,0 +1,77 @@
+{
+ "made": "2026-11-20 by a fitting tool not included in this repository, against the LIGHT=filter reference scene (sha256 6f9fb0ca5fc16eb6...)",
+ "gate": {
+  "p99": 6,
+  "mean": 1.5,
+  "lightLo": 0.97,
+  "lightHi": 1.03
+ },
+ "verdict": {
+  "fit": false,
+  "fixtureFails": true
+ },
+ "displayAvg": {
+  "px": 19669,
+  "mean": 0.93,
+  "p95": 3.01,
+  "p99": 5.76,
+  "max": 18.5,
+  "maxAtR": 2.1,
+  "light": [
+   1.028,
+   1.02,
+   1.085
+  ]
+ },
+ "fineAvg": {
+  "px": 208789,
+  "mean": 0.95,
+  "p95": 3.02,
+  "p99": 5.56,
+  "max": 19,
+  "maxAtR": 2.2,
+  "light": [
+   1.001,
+   1.009,
+   1.023
+  ]
+ },
+ "fixtureAvg": {
+  "px": 21688,
+  "mean": 23.7,
+  "p95": 88,
+  "p99": 120.73,
+  "max": 133.3,
+  "maxAtR": 5.9,
+  "light": [
+   3.888,
+   4.064,
+   4.819
+  ]
+ },
+ "fit": {
+  "NR": 24,
+  "cx": -0.04,
+  "cy": -0.93,
+  "isoStops": 16,
+  "isoWorst": 0.5,
+  "coreStops": 8,
+  "coreWorst": 0.5
+ },
+ "streak": {
+  "RX": 110,
+  "RY": 11.48,
+  "stops": 17,
+  "worst": 0.5
+ },
+ "measuredText": "p99 5.76 (gate 6), mean 0.93 (gate 1.5), total light R/G/B 1.028/1.02/1.085 (gate 0.97-1.03): MISSES the gate on B 1.085. At the fitting scale (4 px/u): p99 5.56, mean 0.95, light 1.001/1.009/1.023.",
+ "parts": {
+  "NEAR": "<filter id=\"ffnear\" filterUnits=\"userSpaceOnUse\" x=\"-24\" y=\"-24\" width=\"48\" height=\"48\" color-interpolation-filters=\"linearRGB\">\n    <feFlood class=\"glowc\" result=\"col\"/>\n    <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"1.1\" result=\"L1\"/>\n    <feComposite in=\"col\" in2=\"L1\" operator=\"in\" result=\"L1c\"/>\n    <feComposite in=\"L1c\" in2=\"L1c\" operator=\"arithmetic\" k2=\"2.4\" result=\"L1b\"/>\n    <feGaussianBlur in=\"L1b\" stdDeviation=\"3\" result=\"L2\"/><feComposite in=\"L2\" in2=\"L1\" operator=\"arithmetic\" k2=\"1\" k3=\"1.2\" result=\"A\"/><feComposite in=\"A\" in2=\"SourceGraphic\" operator=\"arithmetic\" k2=\"1\" k3=\"1\"/></filter>",
+  "GF": "<radialGradient id=\"gf\"><stop offset=\"0\" stop-color=\"#ceff42\" stop-opacity=\"0.1791\"/><stop offset=\"0.1143\" stop-color=\"#ceff42\" stop-opacity=\"0.1791\"/><stop offset=\"0.1607\" stop-color=\"#d3ff45\" stop-opacity=\"0.1364\"/><stop offset=\"0.2036\" stop-color=\"#cdff4b\" stop-opacity=\"0.1026\"/><stop offset=\"0.225\" stop-color=\"#cdff3a\" stop-opacity=\"0.0889\"/><stop offset=\"0.2821\" stop-color=\"#d4ff47\" stop-opacity=\"0.0593\"/><stop offset=\"0.3107\" stop-color=\"#c9ff3d\" stop-opacity=\"0.0529\"/><stop offset=\"0.3607\" stop-color=\"#c5ff0d\" stop-opacity=\"0.0406\"/><stop offset=\"0.4571\" stop-color=\"#beff04\" stop-opacity=\"0.0266\"/><stop offset=\"0.525\" stop-color=\"#f3ff04\" stop-opacity=\"0.0186\"/><stop offset=\"0.5964\" stop-color=\"#c8ff03\" stop-opacity=\"0.0159\"/><stop offset=\"0.6643\" stop-color=\"#efff03\" stop-opacity=\"0.0104\"/><stop offset=\"0.6964\" stop-color=\"#87ff04\" stop-opacity=\"0.0081\"/><stop offset=\"0.825\" stop-color=\"#42ff00\" stop-opacity=\"0.004\"/><stop offset=\"0.9714\" stop-color=\"#e6ff00\" stop-opacity=\"0.0001\"/><stop offset=\"1\" stop-color=\"#f5ff00\" stop-opacity=\"0.0001\"/></radialGradient>",
+  "GC": "<radialGradient id=\"gc\"><stop offset=\"0\" stop-color=\"#000000\" stop-opacity=\"0\"/><stop offset=\"0.1071\" stop-color=\"#000000\" stop-opacity=\"0\"/><stop offset=\"0.1607\" stop-color=\"#b5c8ff\" stop-opacity=\"0.0238\"/><stop offset=\"0.1786\" stop-color=\"#c6e2ff\" stop-opacity=\"0.0302\"/><stop offset=\"0.2857\" stop-color=\"#dfff51\" stop-opacity=\"0.031\"/><stop offset=\"0.4643\" stop-color=\"#d2ff73\" stop-opacity=\"0.0194\"/><stop offset=\"0.6429\" stop-color=\"#bcff38\" stop-opacity=\"0.0065\"/><stop offset=\"1\" stop-color=\"#98ff78\" stop-opacity=\"0.0044\"/></radialGradient>",
+  "GS": "<radialGradient id=\"gs\"><stop offset=\"0\" stop-color=\"#d5ff3b\" stop-opacity=\"0.0848\"/><stop offset=\"0.1432\" stop-color=\"#d9ff40\" stop-opacity=\"0.0789\"/><stop offset=\"0.2727\" stop-color=\"#d9ff45\" stop-opacity=\"0.0632\"/><stop offset=\"0.3341\" stop-color=\"#dbff49\" stop-opacity=\"0.0549\"/><stop offset=\"0.4045\" stop-color=\"#cbff5a\" stop-opacity=\"0.0445\"/><stop offset=\"0.4455\" stop-color=\"#d5ff46\" stop-opacity=\"0.0375\"/><stop offset=\"0.4705\" stop-color=\"#cdff00\" stop-opacity=\"0.0337\"/><stop offset=\"0.5364\" stop-color=\"#c6ff00\" stop-opacity=\"0.0252\"/><stop offset=\"0.6\" stop-color=\"#ffff00\" stop-opacity=\"0.0174\"/><stop offset=\"0.6614\" stop-color=\"#d1ff00\" stop-opacity=\"0.0157\"/><stop offset=\"0.7045\" stop-color=\"#ffff00\" stop-opacity=\"0.0118\"/><stop offset=\"0.75\" stop-color=\"#80ff00\" stop-opacity=\"0.0078\"/><stop offset=\"0.7795\" stop-color=\"#b2ff00\" stop-opacity=\"0.0056\"/><stop offset=\"0.8364\" stop-color=\"#80ff00\" stop-opacity=\"0.0039\"/><stop offset=\"0.8659\" stop-color=\"#00ff00\" stop-opacity=\"0.0021\"/><stop offset=\"0.9795\" stop-color=\"#000000\" stop-opacity=\"0\"/><stop offset=\"1\" stop-color=\"#000000\" stop-opacity=\"0\"/></radialGradient>",
+  "FAR": "<circle cx=\"-0.04\" cy=\"-0.93\" r=\"70\" fill=\"url(#gf)\"/>",
+  "CORE": "<circle r=\"14\" fill=\"url(#gc)\" class=\"add\"/>",
+  "STREAK": "<ellipse rx=\"110\" ry=\"11.48\" fill=\"url(#gs)\" class=\"add\"/>"
+ }
+}

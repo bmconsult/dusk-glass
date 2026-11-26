@@ -1,0 +1,5 @@
+{
+  "name": "dusk-glass",
+  "owner": { "name": "bmconsult" },
+  "plugins": [{ "name": "dusk-glass", "source": "./" }]
+}

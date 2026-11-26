@@ -1,0 +1,16 @@
+{
+  "name": "dusk-glass",
+  "version": "1.0.0",
+  "description": "Lavender-dusk colours and a living dusk sky behind the Claude desktop app's conversation: fireflies that glow up one or two at a time, a little pen-drawn bee, and three flowers growing out of the corner. Optional Comic Sans for the chat.",
+  "author": { "name": "bmconsult" },
+  "license": "MIT",
+  "userConfig": {
+    "font": {
+      "type": "string",
+      "title": "Chat font",
+      "description": "comic-sans draws the conversation in Comic Sans (Windows; other systems show their own cursive font). app-default keeps the app's font.",
+      "default": "comic-sans",
+      "options": ["comic-sans", "app-default"]
+    }
+  }
+}
